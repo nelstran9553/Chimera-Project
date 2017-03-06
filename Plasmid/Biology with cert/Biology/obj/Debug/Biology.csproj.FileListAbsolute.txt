@@ -129,3 +129,16 @@ D:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.Properties.Resources
 D:\Plasmid\Biology with cert\Biology\obj\Debug\Biology.csproj.GenerateResource.Cache
 D:\Plasmid\Biology with cert\Biology\bin\Debug\BTSimulation.exe
 D:\Plasmid\Biology with cert\Biology\bin\Debug\BTSimulation.pdb
+F:\Plasmid\Biology with cert\Biology\bin\Debug\BTSimulation.exe.config
+F:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.exe
+F:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.pdb
+F:\Plasmid\Biology with cert\Biology\bin\Debug\BTSimulation.exe
+F:\Plasmid\Biology with cert\Biology\bin\Debug\BTSimulation.pdb
+F:\Plasmid\Biology with cert\Biology\obj\Debug\Biology.csprojResolveAssemblyReference.cache
+F:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.certificateDisplay.resources
+F:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.geneMerger.resources
+F:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.mainMenu.resources
+F:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.geneCutter.resources
+F:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.progressScreen.resources
+F:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.Properties.Resources.resources
+F:\Plasmid\Biology with cert\Biology\obj\Debug\Biology.csproj.GenerateResource.Cache

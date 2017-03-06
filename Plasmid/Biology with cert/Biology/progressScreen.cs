@@ -21,43 +21,43 @@ namespace BTSimulation
             nameLabel.Text = Globals.name + ", " + Globals.period;
             if (Globals.ecoPampHumulinMerged)
             {
-                ecoAMPhumulinCheck.Checked = true;
-                Globals.s8 = ecoAMPhumulinCheck.Text;
+                ecoAMPhumulinCheck.Text = "&✔ " + "EcoR1 - pAMP and Humulin";
+                Globals.s8 = "EcoR1 - pAMP and Humulin";
             }
             if (Globals.ecoPampHumiraMerged)
             {
-                ecoAMPhumiraCheck.Checked = true;
-                Globals.s1 = ecoAMPhumiraCheck.Text;
+                ecoAMPhumiraCheck.Text = "&✔ " + "EcoR1 - pAMP and Humira";
+                Globals.s1 = "EcoR1 - pAMP and Humira";
             }
             if (Globals.bamPampHumulinMerged)
             {
-                bamAMPhumulinCheck.Checked = true;
-                Globals.s2 = bamAMPhumulinCheck.Text;
+                bamAMPhumulinCheck.Text = "&✔ " + "BamR1 - pAMP and Humulin";
+                Globals.s2 = "BamR1 - pAMP and Humulin";
             }
             if (Globals.bamPampHumiraMerged)
             {
-                bamAMPhumiraCheck.Checked = true;
-                Globals.s3 = bamAMPhumiraCheck.Text;
+                bamAMPhumiraCheck.Text = "&✔ " + "BamR1 - pAMP and Humira";
+                Globals.s3 = "BamR1 - pAMP and Humira";
             }
             if (Globals.ecoPkanHumulinMerged)
             {
-                ecoKANhumulinCheck.Checked = true;
-                Globals.s4 = ecoKANhumulinCheck.Text;
+                ecoKANhumulinCheck.Text = "&✔ " + "EcoR1 - pKAN and Humulin";
+                Globals.s4 = "EcoR1 - pKAN and Humulin";
             }
             if (Globals.ecoPkanHumiraMerged)
             {
-                ecoKANhumiraCheck.Checked = true;
-                Globals.s5 = ecoKANhumiraCheck.Text;
+                ecoKANhumulinCheck.Text = "&✔ " + "EcoR1 - pKAN and Humira";
+                Globals.s5 = "EcoR1 - pKAN and Humira";
             }
             if (Globals.bamPkanHumulinMerged)
             {
-                bamKANhumulinCheck.Checked = true;
-                Globals.s6 = ecoAMPhumiraCheck.Text;
+                bamKANhumulinCheck.Text = "&✔ " + "BamR1 - pKAN and Humulin";
+                Globals.s6 = "BamR1 - pKAN and Humulin";
             }
             if (Globals.bamPkanHumiraMerged)
             {
-                bamKANhumiraCheck.Checked = true;
-                Globals.s7 = ecoAMPhumiraCheck.Text;
+                bamKANhumiraCheck.Text = "&✔ " + "BamR1 - pKAN and Humira";
+                Globals.s7 = "BamR1 - pKAN and Humira";
             }
             }
 
@@ -85,46 +85,7 @@ namespace BTSimulation
 
 
 
-        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
-        {
-            string completedLeft = "";
-            if (Globals.ecoPampHumulinMerged)
-                completedLeft += ecoAMPhumulinCheck.Text;
-            completedLeft += "\n";
-            if (Globals.ecoPampHumiraMerged)
-                completedLeft += ecoAMPhumiraCheck.Text;
-            completedLeft += "\n";
-            if (Globals.bamPampHumulinMerged)
-                completedLeft += bamAMPhumulinCheck.Text;
-            completedLeft += "\n";
-            if (Globals.bamPampHumiraMerged)
-                completedLeft += bamAMPhumiraCheck.Text;
-            string completedRight = "";
-            if (Globals.ecoPkanHumulinMerged)
-                completedRight += ecoKANhumulinCheck.Text;
-            completedRight += "\n";
-            if (Globals.ecoPkanHumiraMerged)
-                completedRight += ecoKANhumiraCheck.Text;
-            completedRight += "\n";
-            if (Globals.bamPkanHumulinMerged)
-                completedRight += bamKANhumulinCheck.Text;
-            completedRight += "\n";
-            if (Globals.bamPkanHumiraMerged)
-                completedRight += bamKANhumiraCheck.Text;
-            StringFormat format = new StringFormat();
-            format.LineAlignment = StringAlignment.Center;
-            format.Alignment = StringAlignment.Center;
-            e.Graphics.DrawImage(new Bitmap(BTSimulation.Properties.Resources.certificate), 0, 0, 1100, 850);
-            e.Graphics.DrawString(Globals.name,
-            new Font("Bell MT", 40, FontStyle.Regular), Brushes.Black, 550, 390, format);
-            e.Graphics.DrawString(completedLeft,
-            new Font("Bell MT", 16, FontStyle.Regular), Brushes.Black, 300, 500);
-            e.Graphics.DrawString(completedRight,
-            new Font("Bell MT", 16, FontStyle.Regular), Brushes.Black, 650, 500);
-            e.Graphics.DrawString(DateTime.Now.ToString(" d MMMM yyyy\r\n h:mm tt"),
-            new Font("Microsoft Sans Serif", 16, FontStyle.Regular), Brushes.Gray, 745, 665);
-
-        }
+        
 
         private void progressScreen_Load(object sender, EventArgs e)
         {
