@@ -1,0 +1,157 @@
+\\gsdstudents06\2020\9542489\Visual Studio 2015\Projects\Biology\Biology\bin\Debug\Biology.exe.config
+\\gsdstudents06\2020\9542489\Visual Studio 2015\Projects\Biology\Biology\bin\Debug\Biology.exe
+\\gsdstudents06\2020\9542489\Visual Studio 2015\Projects\Biology\Biology\bin\Debug\Biology.pdb
+\\gsdstudents06\2020\9542489\Visual Studio 2015\Projects\Biology\Biology\obj\Debug\Biology.csprojResolveAssemblyReference.cache
+\\gsdstudents06\2020\9542489\Visual Studio 2015\Projects\Biology\Biology\obj\Debug\Biology.Form1.resources
+\\gsdstudents06\2020\9542489\Visual Studio 2015\Projects\Biology\Biology\obj\Debug\Biology.Properties.Resources.resources
+\\gsdstudents06\2020\9542489\Visual Studio 2015\Projects\Biology\Biology\obj\Debug\Biology.csproj.GenerateResource.Cache
+\\gsdstudents06\2020\9542489\Visual Studio 2015\Projects\Biology\Biology\obj\Debug\Biology.exe
+\\gsdstudents06\2020\9542489\Visual Studio 2015\Projects\Biology\Biology\obj\Debug\Biology.pdb
+\\gsdstudents06\2020\9542489\Visual Studio 2015\Projects\Biology\Biology\obj\Debug\Biology.mainScreen.resources
+D:\Biology\Biology\bin\Debug\Biology.exe.config
+D:\Biology\Biology\obj\Debug\Biology.exe
+D:\Biology\Biology\obj\Debug\Biology.pdb
+D:\Biology\Biology\bin\Debug\Biology.exe
+D:\Biology\Biology\bin\Debug\Biology.pdb
+D:\Biology\Biology\obj\Debug\Biology.csprojResolveAssemblyReference.cache
+D:\Biology\Biology\obj\Debug\Biology.Properties.Resources.resources
+D:\Biology\Biology\obj\Debug\Biology.csproj.GenerateResource.Cache
+D:\Biology\Biology\obj\Debug\Biology.mainMenu.resources
+D:\Biology\Biology\obj\Debug\Biology.geneCutter.resources
+Z:\Nate\USB\Biology\Biology\bin\Debug\Biology.exe.config
+Z:\Nate\USB\Biology\Biology\obj\Debug\Biology.exe
+Z:\Nate\USB\Biology\Biology\obj\Debug\Biology.pdb
+Z:\Nate\USB\Biology\Biology\bin\Debug\Biology.exe
+Z:\Nate\USB\Biology\Biology\bin\Debug\Biology.pdb
+Z:\Nate\USB\Biology\Biology\obj\Debug\Biology.csprojResolveAssemblyReference.cache
+Z:\Nate\USB\Biology\Biology\obj\Debug\Biology.mainMenu.resources
+Z:\Nate\USB\Biology\Biology\obj\Debug\Biology.geneCutter.resources
+Z:\Nate\USB\Biology\Biology\obj\Debug\Biology.Properties.Resources.resources
+Z:\Nate\USB\Biology\Biology\obj\Debug\Biology.csproj.GenerateResource.Cache
+E:\Biology\Biology\bin\Debug\Biology.exe.config
+E:\Biology\Biology\obj\Debug\Biology.exe
+E:\Biology\Biology\obj\Debug\Biology.pdb
+E:\Biology\Biology\bin\Debug\Biology.exe
+E:\Biology\Biology\bin\Debug\Biology.pdb
+E:\Biology\Biology\obj\Debug\Biology.csprojResolveAssemblyReference.cache
+E:\Biology\Biology\obj\Debug\Biology.mainMenu.resources
+E:\Biology\Biology\obj\Debug\Biology.geneCutter.resources
+E:\Biology\Biology\obj\Debug\Biology.Properties.Resources.resources
+E:\Biology\Biology\obj\Debug\Biology.csproj.GenerateResource.Cache
+E:\Biology\Biology\obj\Debug\Biology.geneMerger.resources
+E:\Biology - Copy\Biology\bin\Debug\Biology.exe.config
+E:\Biology - Copy\Biology\obj\Debug\Biology.exe
+E:\Biology - Copy\Biology\obj\Debug\Biology.pdb
+E:\Biology - Copy - Copy\Biology\bin\Debug\Biology.exe.config
+E:\Biology - Copy - Copy\Biology\obj\Debug\Biology.exe
+E:\Biology - Copy - Copy\Biology\obj\Debug\Biology.pdb
+E:\Biology - Copy - Copy\Biology\bin\Debug\Biology.exe
+E:\Biology - Copy - Copy\Biology\bin\Debug\Biology.pdb
+E:\Biology - Copy - Copy\Biology\obj\Debug\Biology.csprojResolveAssemblyReference.cache
+E:\Biology - Copy - Copy\Biology\obj\Debug\Biology.geneMerger.resources
+E:\Biology - Copy - Copy\Biology\obj\Debug\Biology.mainMenu.resources
+E:\Biology - Copy - Copy\Biology\obj\Debug\Biology.geneCutter.resources
+E:\Biology - Copy - Copy\Biology\obj\Debug\Biology.Properties.Resources.resources
+E:\Biology - Copy - Copy\Biology\obj\Debug\Biology.csproj.GenerateResource.Cache
+E:\Biology - Copy - Copy\Biology\obj\Debug\Biology.progressScreen.resources
+D:\Biology - Copy - Copy\Biology\bin\Debug\Biology.exe.config
+D:\Biology - Copy - Copy\Biology\obj\Debug\Biology.exe
+D:\Biology - Copy - Copy\Biology\obj\Debug\Biology.pdb
+D:\Biology - Copy - Copy\Biology\bin\Debug\Biology.exe
+D:\Biology - Copy - Copy\Biology\bin\Debug\Biology.pdb
+D:\Biology - Copy - Copy\Biology\obj\Debug\Biology.csprojResolveAssemblyReference.cache
+D:\Biology - Copy - Copy\Biology\obj\Debug\Biology.geneMerger.resources
+D:\Biology - Copy - Copy\Biology\obj\Debug\Biology.mainMenu.resources
+D:\Biology - Copy - Copy\Biology\obj\Debug\Biology.geneCutter.resources
+D:\Biology - Copy - Copy\Biology\obj\Debug\Biology.progressScreen.resources
+D:\Biology - Copy - Copy\Biology\obj\Debug\Biology.Properties.Resources.resources
+D:\Biology - Copy - Copy\Biology\obj\Debug\Biology.csproj.GenerateResource.Cache
+C:\Users\Weston Fausett\Downloads\Biology - Copy - Copy\Biology\bin\Debug\Biology.exe.config
+C:\Users\Weston Fausett\Downloads\Biology - Copy - Copy\Biology\obj\Debug\Biology.exe
+C:\Users\Weston Fausett\Downloads\Biology - Copy - Copy\Biology\obj\Debug\Biology.pdb
+C:\Users\Weston Fausett\Downloads\Biology - Copy - Copy\Biology\bin\Debug\Biology.exe
+C:\Users\Weston Fausett\Downloads\Biology - Copy - Copy\Biology\bin\Debug\Biology.pdb
+C:\Users\Weston Fausett\Downloads\Biology - Copy - Copy\Biology\obj\Debug\Biology.geneMerger.resources
+C:\Users\Weston Fausett\Downloads\Biology - Copy - Copy\Biology\obj\Debug\Biology.mainMenu.resources
+C:\Users\Weston Fausett\Downloads\Biology - Copy - Copy\Biology\obj\Debug\Biology.geneCutter.resources
+C:\Users\Weston Fausett\Downloads\Biology - Copy - Copy\Biology\obj\Debug\Biology.progressScreen.resources
+C:\Users\Weston Fausett\Downloads\Biology - Copy - Copy\Biology\obj\Debug\Biology.Properties.Resources.resources
+C:\Users\Weston Fausett\Downloads\Biology - Copy - Copy\Biology\obj\Debug\Biology.csproj.GenerateResource.Cache
+C:\Users\Weston Fausett\Downloads\Biology - Copy - Copy\Biology\obj\Debug\Biology.csprojResolveAssemblyReference.cache
+C:\projects\Nate\Biology with cert\Biology\bin\Debug\Biology.exe.config
+C:\projects\Nate\Biology with cert\Biology\obj\Debug\Biology.exe
+C:\projects\Nate\Biology with cert\Biology\obj\Debug\Biology.pdb
+C:\projects\Nate\Biology with cert\Biology\bin\Debug\Biology.exe
+C:\projects\Nate\Biology with cert\Biology\bin\Debug\Biology.pdb
+C:\projects\Nate\Biology with cert\Biology\obj\Debug\Biology.csprojResolveAssemblyReference.cache
+C:\projects\Nate\Biology with cert\Biology\obj\Debug\Biology.geneMerger.resources
+C:\projects\Nate\Biology with cert\Biology\obj\Debug\Biology.mainMenu.resources
+C:\projects\Nate\Biology with cert\Biology\obj\Debug\Biology.geneCutter.resources
+C:\projects\Nate\Biology with cert\Biology\obj\Debug\Biology.progressScreen.resources
+C:\projects\Nate\Biology with cert\Biology\obj\Debug\Biology.Properties.Resources.resources
+C:\projects\Nate\Biology with cert\Biology\obj\Debug\Biology.csproj.GenerateResource.Cache
+F:\Nate\Biology with cert\Biology\obj\Debug\Biology.csprojResolveAssemblyReference.cache
+F:\Nate\Biology with cert\Biology\obj\Debug\Biology.csproj.GenerateResource.Cache
+D:\Nate\Biology with cert\Biology\obj\Debug\Biology.csprojResolveAssemblyReference.cache
+D:\Nate\Biology with cert\Biology\obj\Debug\Biology.csproj.GenerateResource.Cache
+F:\Nate\Biology with cert\Biology\bin\Debug\BTSimulation.exe.config
+F:\Nate\Biology with cert\Biology\obj\Debug\BTSimulation.Properties.Resources.resources
+F:\Nate\Biology with cert\Biology\bin\Debug\BTSimulation.exe
+F:\Nate\Biology with cert\Biology\bin\Debug\BTSimulation.pdb
+F:\Nate\Biology with cert\Biology\obj\Debug\BTSimulation.certificateDisplay.resources
+F:\Nate\Biology with cert\Biology\obj\Debug\BTSimulation.geneMerger.resources
+F:\Nate\Biology with cert\Biology\obj\Debug\BTSimulation.mainMenu.resources
+F:\Nate\Biology with cert\Biology\obj\Debug\BTSimulation.geneCutter.resources
+F:\Nate\Biology with cert\Biology\obj\Debug\BTSimulation.progressScreen.resources
+F:\Nate\Biology with cert\Biology\obj\Debug\BTSimulation.exe
+F:\Nate\Biology with cert\Biology\obj\Debug\BTSimulation.pdb
+D:\Nate\Biology with cert\Biology\bin\Debug\BTSimulation.exe.config
+D:\Nate\Biology with cert\Biology\obj\Debug\BTSimulation.exe
+D:\Nate\Biology with cert\Biology\obj\Debug\BTSimulation.pdb
+D:\Nate\Biology with cert\Biology\bin\Debug\BTSimulation.exe
+D:\Nate\Biology with cert\Biology\bin\Debug\BTSimulation.pdb
+D:\Nate\Biology with cert\Biology\obj\Debug\BTSimulation.certificateDisplay.resources
+D:\Nate\Biology with cert\Biology\obj\Debug\BTSimulation.geneMerger.resources
+D:\Nate\Biology with cert\Biology\obj\Debug\BTSimulation.mainMenu.resources
+D:\Nate\Biology with cert\Biology\obj\Debug\BTSimulation.geneCutter.resources
+D:\Nate\Biology with cert\Biology\obj\Debug\BTSimulation.progressScreen.resources
+D:\Nate\Biology with cert\Biology\obj\Debug\BTSimulation.Properties.Resources.resources
+D:\Plasmid\Biology with cert\Biology\bin\Debug\BTSimulation.exe.config
+D:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.exe
+D:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.pdb
+D:\Plasmid\Biology with cert\Biology\obj\Debug\Biology.csprojResolveAssemblyReference.cache
+D:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.certificateDisplay.resources
+D:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.geneMerger.resources
+D:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.mainMenu.resources
+D:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.geneCutter.resources
+D:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.progressScreen.resources
+D:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.Properties.Resources.resources
+D:\Plasmid\Biology with cert\Biology\obj\Debug\Biology.csproj.GenerateResource.Cache
+D:\Plasmid\Biology with cert\Biology\bin\Debug\BTSimulation.exe
+D:\Plasmid\Biology with cert\Biology\bin\Debug\BTSimulation.pdb
+F:\Plasmid\Biology with cert\Biology\bin\Debug\BTSimulation.exe.config
+F:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.exe
+F:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.pdb
+F:\Plasmid\Biology with cert\Biology\bin\Debug\BTSimulation.exe
+F:\Plasmid\Biology with cert\Biology\bin\Debug\BTSimulation.pdb
+F:\Plasmid\Biology with cert\Biology\obj\Debug\Biology.csprojResolveAssemblyReference.cache
+F:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.certificateDisplay.resources
+F:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.geneMerger.resources
+F:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.mainMenu.resources
+F:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.geneCutter.resources
+F:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.progressScreen.resources
+F:\Plasmid\Biology with cert\Biology\obj\Debug\BTSimulation.Properties.Resources.resources
+F:\Plasmid\Biology with cert\Biology\obj\Debug\Biology.csproj.GenerateResource.Cache
+F:\Chimera\Biology with cert\Biology\bin\Debug\Chimera.exe.config
+F:\Chimera\Biology with cert\Biology\obj\Debug\Biology.csprojResolveAssemblyReference.cache
+F:\Chimera\Biology with cert\Biology\obj\Debug\Chimera.Properties.Resources.resources
+F:\Chimera\Biology with cert\Biology\obj\Debug\Biology.csproj.GenerateResource.Cache
+F:\Chimera\Biology with cert\Biology\bin\Debug\Chimera.exe
+F:\Chimera\Biology with cert\Biology\bin\Debug\Chimera.pdb
+F:\Chimera\Biology with cert\Biology\obj\Debug\Chimera.certificateDisplay.resources
+F:\Chimera\Biology with cert\Biology\obj\Debug\Chimera.geneMerger.resources
+F:\Chimera\Biology with cert\Biology\obj\Debug\Chimera.mainMenu.resources
+F:\Chimera\Biology with cert\Biology\obj\Debug\Chimera.geneCutter.resources
+F:\Chimera\Biology with cert\Biology\obj\Debug\Chimera.progressScreen.resources
+F:\Chimera\Biology with cert\Biology\obj\Debug\Chimera.exe
+F:\Chimera\Biology with cert\Biology\obj\Debug\Chimera.pdb
