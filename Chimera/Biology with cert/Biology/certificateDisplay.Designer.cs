@@ -85,6 +85,7 @@
             this.Controls.Add(this.printCert);
             this.Controls.Add(this.certPicture);
             this.Name = "certificateDisplay";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "certificateDisplay";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.certificateDisplay_FormClosed);
             this.Load += new System.EventHandler(this.certificateDisplay_Load);

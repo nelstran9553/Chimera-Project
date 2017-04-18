@@ -86,6 +86,7 @@
             // 
             // displayPanel
             // 
+            this.displayPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.displayPanel.Controls.Add(this.stepFourGif);
             this.displayPanel.Controls.Add(this.showStepFour);
             this.displayPanel.Controls.Add(this.stepFour);
@@ -373,23 +374,25 @@
             // 
             // cutEndButton
             // 
+            this.cutEndButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("cutEndButton.BackgroundImage")));
+            this.cutEndButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.cutEndButton.Font = new System.Drawing.Font("Lucida Sans Unicode", 27F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cutEndButton.Location = new System.Drawing.Point(421, 35);
             this.cutEndButton.Name = "cutEndButton";
             this.cutEndButton.Size = new System.Drawing.Size(35, 47);
             this.cutEndButton.TabIndex = 7;
-            this.cutEndButton.Text = "☟";
             this.cutEndButton.UseVisualStyleBackColor = true;
             this.cutEndButton.Click += new System.EventHandler(this.cutEndButton_Click);
             // 
             // cutBeginningButton
             // 
+            this.cutBeginningButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("cutBeginningButton.BackgroundImage")));
+            this.cutBeginningButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.cutBeginningButton.Font = new System.Drawing.Font("Lucida Sans Unicode", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cutBeginningButton.Location = new System.Drawing.Point(171, 35);
             this.cutBeginningButton.Name = "cutBeginningButton";
             this.cutBeginningButton.Size = new System.Drawing.Size(35, 47);
             this.cutBeginningButton.TabIndex = 8;
-            this.cutBeginningButton.Text = "☟";
             this.cutBeginningButton.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.cutBeginningButton.UseVisualStyleBackColor = true;
             this.cutBeginningButton.Click += new System.EventHandler(this.cutBeginningButton_Click);
@@ -568,6 +571,7 @@
             this.newDNAcombo.Name = "newDNAcombo";
             this.newDNAcombo.Size = new System.Drawing.Size(121, 21);
             this.newDNAcombo.TabIndex = 12;
+            this.newDNAcombo.SelectedIndexChanged += new System.EventHandler(this.newDNAcombo_SelectedIndexChanged);
             // 
             // label1
             // 

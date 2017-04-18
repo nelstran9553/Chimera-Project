@@ -9,10 +9,11 @@ namespace Chimera
     {
         const string pAMP_DNA = "AGACGTAGCATGCTAGAATTCGATGCTGATCGATCGATCGATGCAGGATCCGTCGAGCTGCTGCAT";
         const string pKAN_DNA = "CCCTAGCTATGCAGTTTCGACAGAATTCTGCATGTCGTAGCGGATCCGTCAGCGTGTGACGAGCTA";
-        const string humulin_DNA = "GGCTAGCTGCATGCGTACGAATTCTGTCAGTCGGATCCGTCAGTCGGTATGCTAGCTAGAGTCGAT";
-        const string humira_DNA = "TCAGTCGTACGTAGTCAGTACGTGCGATCGGATCCAAGTGTACCGAATTCAGTGGATTCGTACGTA";
+        const string humulin_DNA = "GGCTAGCTGCATGCGTACGAATTCTGTCAGTCGGATCCGTCAGTCGGTATGCTA";
+        const string humira_DNA = "TCAGTCGTACGTAGTCAGTACGTGCGATCGGATCCAAGTGTACCGAATTCAGTGG";
         const string EcoRI_cutSite = "GAATTC";
         const string BamHI_cutSite = "GGATCC";
+        bool completeLoop = true;
         string chosenGene;
         string chosenCutSite;
         bool successfullyCut;
@@ -170,6 +171,12 @@ namespace Chimera
                 }
             }
             //Left Column
+            if (!completeLoop)
+            {
+                cornerBox1.Visible = false;
+                cornerBox4.Visible = false;
+                return;
+            }
             xPosition = 5;
             for (int z = 0; z < displayPanel.Height / baseDisplaySize - 2; z++)
             {
@@ -239,7 +246,6 @@ namespace Chimera
             cutBeginning = DNA_Index + 2;
             if(cutEnd != -1)
             {
-                resetButton.Enabled = true;
                 checkCut(findSelectedCutSite());
             }
 
@@ -251,7 +257,6 @@ namespace Chimera
             cutEnd = DNA_Index + 7;
             if (cutBeginning != -1)
             {
-                resetButton.Enabled = true;
                 checkCut(findSelectedCutSite());
             }
             displayPanel.Refresh();
@@ -324,14 +329,14 @@ namespace Chimera
                     {
                         ecoAMPcheck.Checked = true;
                         Globals.ecoAMPcut = true;
-                        
+                        resetButton.Enabled = true;
                         Globals.ecoAMPcutSite = pAMP_DNA.Substring(cutBeginning-3, (cutEnd - cutBeginning) + 7);
                     }
                     else if(chosenCutSite == BamHI_cutSite)
                     {
                         bamAMPcheck.Checked = true;
                         Globals.bamAMPcut = true;
-                        
+                        resetButton.Enabled = true;
                         Globals.bamAMPcutSite = pAMP_DNA.Substring(cutBeginning - 3, (cutEnd - cutBeginning) + 7);
                     }
                     break;
@@ -340,13 +345,14 @@ namespace Chimera
                     {
                         ecoKANcheck.Checked = true;
                         Globals.ecoKANcut = true;
-                        
+                        resetButton.Enabled = true;
                         Globals.ecoKANcutSite = pKAN_DNA.Substring(cutBeginning - 3, (cutEnd - cutBeginning) + 7);
                     }
                     else if (chosenCutSite == BamHI_cutSite)
                     {
                         bamKANcheck.Checked = true;
                         Globals.bamKANcut = true;
+                        resetButton.Enabled = true;
                         Globals.bamKANcutSite = pKAN_DNA.Substring(cutBeginning - 3, (cutEnd - cutBeginning) + 7);
                     }
                     break;
@@ -355,13 +361,14 @@ namespace Chimera
                     {
                         ecoHumulinCheck.Checked = true;
                         Globals.ecoHumulinCut = true;
-                        
+                        resetButton.Enabled = true;
                         Globals.ecoHumulinCutSite = humulin_DNA.Substring(cutBeginning - 3, (cutEnd - cutBeginning) + 7);
                     }
                     else if (chosenCutSite == BamHI_cutSite)
                     {
                         bamHumulinCheck.Checked = true;
                         Globals.bamHumulinCut = true;
+                        resetButton.Enabled = true;
                         Globals.bamHumulinCutSite = humulin_DNA.Substring(cutBeginning - 3, (cutEnd - cutBeginning) + 7);
                     }
                     break;
@@ -370,14 +377,14 @@ namespace Chimera
                     {
                         ecoHumiraCheck.Checked = true;
                         Globals.ecoHumiraCut = true;
-                        
+                        resetButton.Enabled = true;
                         Globals.ecoHumiraCutSite = humira_DNA.Substring(cutBeginning - 3, (cutEnd - cutBeginning) + 7);
                     }
                     else if (chosenCutSite == BamHI_cutSite)
                     {
                         bamHumiraCheck.Checked = true;
                         Globals.bamHumiraCut = true;
-                        
+                        resetButton.Enabled = true;
                         Globals.bamHumiraCutSite = humira_DNA.Substring(cutBeginning - 3, (cutEnd - cutBeginning) + 7);
                     }
                     break;
@@ -397,7 +404,9 @@ namespace Chimera
             cutBeginningButton.Enabled = true;
             cutEndButton.Enabled = true;
             cornerBox2.Top -= baseDisplaySize * 3;
+            cornerBox1.Visible = true;
             cornerBox3.Visible = true;
+            cornerBox4.Visible = true;
             string newDNA;
             switch (newDNAcombo.SelectedIndex)
             {
@@ -421,6 +430,10 @@ namespace Chimera
             //DNA_Index = startPicker.Next(plasmid.Length);
             DNA_Index = 0;
             chosenGene = newDNAcombo.Text;
+            if (chosenGene == "Humira" || chosenGene == "Humulin")
+                completeLoop = false;
+            if (chosenGene == "pKAN" || chosenGene == "pAMP")
+                completeLoop = true;
             cutBeginning = -1;
             cutEnd = -1;
             displayPanel.Refresh();
@@ -648,6 +661,11 @@ namespace Chimera
             {
                 mergeButton.Enabled = true;
             }
+        }
+
+        private void newDNAcombo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            chosenGene = newDNAcombo.Text;
         }
     }
 }
